@@ -56,7 +56,7 @@
  * on standard output.
  */
 int
-main(int argc UNUSED, char **argv UNUSED)
+main(int argc, char **argv)
 {
 
 #ifdef WIN32
