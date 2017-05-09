@@ -3,8 +3,8 @@ CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.c \
-    ../base16-test.c \
+SOURCES += \
+    ../camellia-test.c \
     ../testutils.c
 
 INCLUDEPATH += \
