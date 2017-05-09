@@ -55,7 +55,7 @@
  * Reads base-64 encoded from stdin, writes decoded to stdout.
  */
 int
-main(int argc UNUSED, char **argv UNUSED)
+main(int argc , char **argv )
 {
   /* "buffer" will hold the bytes from disk: */
   uint8_t * buffer = xalloc (CHUNK_SIZE);
