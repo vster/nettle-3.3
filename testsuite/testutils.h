@@ -42,7 +42,7 @@ extern "C" {
 #endif
 
 void
-die(const char *format, ...) PRINTF_STYLE (1, 2) NORETURN;
+die(const char *format, ...);
 
 void *
 xalloc(size_t size);
