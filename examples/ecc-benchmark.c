@@ -341,7 +341,7 @@ const struct ecc_curve * const curves[] = {
 #define numberof(x)  (sizeof (x) / sizeof ((x)[0]))
 
 int
-main (int argc UNUSED, char **argv UNUSED)
+main (int argc, char **argv)
 {
   unsigned i;
 
