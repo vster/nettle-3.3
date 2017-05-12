@@ -111,7 +111,7 @@ static double frequency = 0.0;
 #define BENCH_ITERATIONS 10
 #endif
 
-static void NORETURN PRINTF_STYLE(1,2)
+static void
 die(const char *format, ...)
 {
   va_list args;
@@ -150,7 +150,7 @@ time_function(void (*f)(void *arg), void *arg)
 }
 
 static void
-bench_nothing(void *arg UNUSED)
+bench_nothing(void *arg)
 {
   return;
 }

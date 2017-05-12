@@ -66,7 +66,7 @@
 
 #define BENCH_INTERVAL 0.1
 
-static void NORETURN PRINTF_STYLE(1,2)
+static void
 die(const char *format, ...)
 {
   va_list args;
