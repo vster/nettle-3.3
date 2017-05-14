@@ -3,7 +3,7 @@ CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.c \
+SOURCES +=  \
     ../base16-test.c \
     ../testutils.c
 
@@ -11,4 +11,4 @@ INCLUDEPATH += \
     ../..
 
 LIBS += \
-    -L../.. -lnettle
+    -L../.. -lnettle -lhogweed -lgmp

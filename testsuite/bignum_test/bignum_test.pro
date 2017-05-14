@@ -11,4 +11,4 @@ INCLUDEPATH += \
     ../..
 
 LIBS += \
-    -L../.. -lnettle -lhogweed
+    -L../.. -lnettle -lhogweed -lgmp
