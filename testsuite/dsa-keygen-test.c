@@ -3,7 +3,7 @@
 #include "knuth-lfib.h"
 
 static void
-progress(void *ctx UNUSED, int c)
+progress(void *ctx, int c)
 {
   fputc(c, stderr);
 }

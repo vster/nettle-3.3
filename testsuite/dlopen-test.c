@@ -6,7 +6,7 @@
 #endif
 
 int
-main (int argc UNUSED, char **argv UNUSED)
+main (int argc, char **argv)
 {
 #if HAVE_LIBDL
   void *handle = dlopen ("../libnettle.so", RTLD_NOW);
