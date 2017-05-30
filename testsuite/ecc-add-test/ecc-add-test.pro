@@ -15,3 +15,5 @@ LIBS += \
 
 HEADERS += \
     ../testutils.h
+
+DEFINES +=  "WITH_HOGWEED"

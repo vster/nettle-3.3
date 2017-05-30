@@ -11,4 +11,6 @@ INCLUDEPATH += \
     ../..
 
 LIBS += \
-    -L../.. -lnettle  -lhogweed
+    -L../.. -lnettle  -lhogweed -lgmp
+
+DEFINES +=  "WITH_HOGWEED"
