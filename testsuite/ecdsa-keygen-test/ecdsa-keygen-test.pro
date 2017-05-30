@@ -8,12 +8,10 @@ SOURCES += \
     ../testutils.c
 
 INCLUDEPATH += \
-    ../.. \
-    ../../../gmp-6.1.2/mpz
+    ../..
+
 
 LIBS += \
-    -L../.. -lnettle  -lhogweed -lgmp \
-    -L../../../gmp-6.1.2/mpz/.lib -lmpz
+    -L../.. -lnettle  -lhogweed -lgmp
 
-HEADERS += \
-    ../../../gmp-6.1.2/gmp.h
+DEFINES +=  "WITH_HOGWEED"
