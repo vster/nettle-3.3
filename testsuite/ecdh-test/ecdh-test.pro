@@ -5,8 +5,7 @@ CONFIG -= qt
 
 SOURCES += \
     ../ecdh-test.c \
-    ../testutils.c \
-    ../../mini-gmp.c
+    ../testutils.c
 
 INCLUDEPATH += \
     ../..
@@ -14,5 +13,4 @@ INCLUDEPATH += \
 LIBS += \
     -L../.. -lnettle  -lhogweed -lgmp
 
-HEADERS += \
-    ../../mini-gmp.h
+DEFINES +=  "WITH_HOGWEED"
