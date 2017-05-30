@@ -5,9 +5,7 @@ CONFIG -= qt
 
 SOURCES += \
     ../dsa-keygen-test.c \
-    ../testutils.c \
-    ../dsa-test.c \
-    ../../dsa-compat.c
+    ../testutils.c
 
 INCLUDEPATH += \
     ../..
@@ -15,5 +13,6 @@ INCLUDEPATH += \
 LIBS += \
     -L../.. -lnettle -lhogweed -lgmp
 
-HEADERS += \
-    ../../dsa-compat.h
+HEADERS +=
+
+DEFINES +=  "WITH_HOGWEED"
